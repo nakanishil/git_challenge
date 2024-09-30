@@ -2,22 +2,6 @@ PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git init
 Reinitialized existing Git repository in C:/Users/yuki/Desktop/SamuraiTerakoya/git_challenge/.git/
 PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> echo "Hello,world!" >> hello_world.txt
 PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git add hello_world.txt
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git commit -m "hello_worldを追加"
-[main 036dee0] hello_worldを追加
- 2 files changed, 0 insertions(+), 0 deletions(-)
- delete mode 100644 kadai_005.txt
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git status
-On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git rm hello_world.txt
-rm 'hello_world.txt'
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git init
-Reinitialized existing Git repository in C:/Users/yuki/Desktop/SamuraiTerakoya/git_challenge/.git/
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> echo "Hello,world!" >> hello_world.txt
-PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git add hello_world.txt
 PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git commit -m "hello_world.txtを追加"
 On branch main
 Your branch is ahead of 'origin/main' by 3 commits.
@@ -46,3 +30,11 @@ PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git add hello_world.txt
 PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git commit -m "日本語訳を追記"
 [main 7877534] 日本語訳を追記
  1 file changed, 0 insertions(+), 0 deletions(-)
+
+PS C:\Users\yuki\Desktop\SamuraiTerakoya\git_challenge> git log --oneline
+034a04e (HEAD -> main, origin/main) kadai_005ディレクトリの追加
+e2c2eac kadai_005ディレクトリの追加
+e3f40b7 日本語訳を追記
+e393c89 hello_world.txtを追加
+470f3d3 hello_world.txtの編集
+70ef815 最初のコミット
